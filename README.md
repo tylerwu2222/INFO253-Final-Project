@@ -37,8 +37,9 @@ This is the part where you implement your web application using REACT. Happy Cod
 
 # Proposal
 
-INFO 253A - Project Brief - Team 9
-Members: Ankita Shanbhag, Tyler Wu, Olivia Zhao, Shubham Roy
+## INFO 253A - Project Brief - Team 9
+
+**Members**: Ankita Shanbhag, Tyler Wu, Olivia Zhao, Shubham Roy
 
 ## Objective
 
