@@ -1,0 +1,8 @@
+.pre-test-div {
+    max-width: 60vw;
+    height: auto;
+    margin: auto;
+    padding: 30vh 0;
+    justify-content: center;
+    text-align: center;
+}

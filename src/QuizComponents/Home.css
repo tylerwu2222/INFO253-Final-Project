@@ -1,0 +1,238 @@
+
+.heading{
+    width: 229px;
+    height: 80px;
+    left: 110px;
+    top: 131px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 24px;
+    /* or 38% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #4F46E5;
+}
+
+.options{
+    width: 516px;
+height: 37px;
+left: 149px;
+top: 512px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 152% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.4px;
+
+color: #000000;
+
+}
+
+.sub{
+   
+width: 546px;
+height: 110px;
+left: 109px;
+top: 221px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 36px;
+/* or 114% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.4px;
+
+color: #000000;
+}
+
+.questions{
+    width: 516px;
+height: 37px;
+left: 109px;
+top: 358px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 36px;
+/* identical to box height, or 140% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.4px;
+
+color: #000000;
+
+}
+
+html {
+    font-family: 'Poppins';
+    font-size: 20px;
+
+}
+
+.grid_container{
+    display:grid;
+    grid-template-columns: 33% 67%;
+
+    /*color: #ffffff;*/
+    vertical-align: middle;
+    font-family: 'Roboto';
+}
+.item1{
+    margin-left: 200px;
+    margin-top: 100px;
+    /*color: #ffffff;*/
+    text-align: left;
+    /*display: flex;*/
+    align-items: center;
+    
+
+}
+.item2{
+    text-align: right;
+    color: #ffffff;
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: 60px;
+    display: inline-flex;
+    align-items: center;
+}
+input[type=text]{
+    /* Set width to 40characters */
+    /*width: 42vw;*/
+    width: 437px;
+    height: 41px;
+    left: 109px;
+    top: 405px;
+    
+    background: rgba(217, 217, 217, 0.6);
+    border-radius: 8px;
+  }
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: grey;
+    opacity: 1; /* Firefox */
+    font-size:larger;
+  }
+.checkbox-round {
+    width: 1.6em;
+    height: 1.6em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 5px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-round:checked {
+
+    border: 5px solid #2A76E2;
+}
+.collapsible {
+    background-color: #fefbf2;
+    cursor: pointer;
+    margin-left: -25px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #fefbf2;
+  }
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #fefbf2;
+  }
+  .buttonone{
+    height: 48px;
+    left: 8.52%;
+    right: 76.8%;
+    bottom: 110px;
+    background: #FFFFFF;
+    border: 1px solid #4F46E5;
+    border-radius: 8px;
+    width: 188px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #4F46E5;
+  }
+
+  .buttontwo{
+    height: 48px;
+    left: 24.45%;
+    right: 60.86%;
+    bottom: 110px;
+
+    background: #4F46E5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    width: 96px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    /*display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.4px;
+    */
+    color: #FFFFFF;
+  }
+
+
+  .popup-content {
+    margin: auto;
+    background: rgb(255, 255, 255);
+    width: 50%;
+    padding: 5px;
+  }
+  .popup-arrow {
+    color: rgb(255, 255, 255);
+  }
+  [role='tooltip'].popup-content {
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
+  }
+  
+  .popup-overlay {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  [data-popup='tooltip'].popup-overlay {
+    background: transparent;
+  }

@@ -1,0 +1,24 @@
+/* body{
+    color: blueviolet;
+} */
+.hidden { display:none; }
+
+.no-response-warning{
+    background-color: rgb(131, 50, 35);
+    color: white;
+    padding: 10px;
+}
+
+.questions-div,
+.score-bar{
+    max-width: 60vw;
+    height: auto;
+    margin: auto;
+    /* padding: 30vh 0; */
+    justify-content: center;
+    text-align: center;
+}
+
+.submit-button{
+    color: #4F46E5;
+}
